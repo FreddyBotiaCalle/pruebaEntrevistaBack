@@ -1,4 +1,4 @@
-package com.viperexz.pruebatecnica.exception;
+package com.DanielC.pruebatecnica.exception;
 
 /**
  * Excepción cuando no se encuentra una sucursal

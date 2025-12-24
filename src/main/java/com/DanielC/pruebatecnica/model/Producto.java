@@ -1,4 +1,4 @@
-package com.viperexz.pruebatecnica.model;
+package com.DanielC.pruebatecnica.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;

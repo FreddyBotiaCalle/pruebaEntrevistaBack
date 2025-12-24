@@ -1,6 +1,6 @@
-package com.viperexz.pruebatecnica.repository;
+package com.DanielC.pruebatecnica.repository;
 
-import com.viperexz.pruebatecnica.model.Franquicia;
+import com.DanielC.pruebatecnica.model.Franquicia;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

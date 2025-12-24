@@ -1,6 +1,6 @@
-package com.viperexz.pruebatecnica.repository;
+package com.DanielC.pruebatecnica.repository;
 
-import com.viperexz.pruebatecnica.model.Producto;
+import com.DanielC.pruebatecnica.model.Producto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

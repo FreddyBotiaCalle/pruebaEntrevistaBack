@@ -1,8 +1,8 @@
-package com.viperexz.pruebatecnica.service;
+package com.DanielC.pruebatecnica.service;
 
-import com.viperexz.pruebatecnica.dto.FranquiciaRequestDTO;
-import com.viperexz.pruebatecnica.dto.FranquiciaResponseDTO;
-import com.viperexz.pruebatecnica.dto.ProductoMaxStockDTO;
+import com.DanielC.pruebatecnica.dto.FranquiciaRequestDTO;
+import com.DanielC.pruebatecnica.dto.FranquiciaResponseDTO;
+import com.DanielC.pruebatecnica.dto.ProductoMaxStockDTO;
 
 import java.util.List;
 

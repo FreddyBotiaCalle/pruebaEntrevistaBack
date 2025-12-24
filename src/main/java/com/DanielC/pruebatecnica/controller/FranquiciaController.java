@@ -1,9 +1,9 @@
-package com.viperexz.pruebatecnica.controller;
+package com.DanielC.pruebatecnica.controller;
 
-import com.viperexz.pruebatecnica.dto.FranquiciaRequestDTO;
-import com.viperexz.pruebatecnica.dto.FranquiciaResponseDTO;
-import com.viperexz.pruebatecnica.dto.ProductoMaxStockDTO;
-import com.viperexz.pruebatecnica.service.FranquiciaService;
+import com.DanielC.pruebatecnica.dto.FranquiciaRequestDTO;
+import com.DanielC.pruebatecnica.dto.FranquiciaResponseDTO;
+import com.DanielC.pruebatecnica.dto.ProductoMaxStockDTO;
+import com.DanielC.pruebatecnica.service.FranquiciaService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.Content;

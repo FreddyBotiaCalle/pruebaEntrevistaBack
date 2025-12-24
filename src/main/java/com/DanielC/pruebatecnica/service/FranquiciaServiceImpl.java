@@ -1,12 +1,12 @@
-package com.viperexz.pruebatecnica.service;
+package com.DanielC.pruebatecnica.service;
 
-import com.viperexz.pruebatecnica.dto.*;
-import com.viperexz.pruebatecnica.exception.FranquiciaNotFoundException;
-import com.viperexz.pruebatecnica.model.Franquicia;
-import com.viperexz.pruebatecnica.model.Producto;
-import com.viperexz.pruebatecnica.model.Sucursal;
-import com.viperexz.pruebatecnica.repository.FranquiciaRepository;
-import com.viperexz.pruebatecnica.repository.ProductoRepository;
+import com.DanielC.pruebatecnica.dto.*;
+import com.DanielC.pruebatecnica.exception.FranquiciaNotFoundException;
+import com.DanielC.pruebatecnica.model.Franquicia;
+import com.DanielC.pruebatecnica.model.Producto;
+import com.DanielC.pruebatecnica.model.Sucursal;
+import com.DanielC.pruebatecnica.repository.FranquiciaRepository;
+import com.DanielC.pruebatecnica.repository.ProductoRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

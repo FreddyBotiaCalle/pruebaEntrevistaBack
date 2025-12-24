@@ -1,13 +1,13 @@
-package com.viperexz.pruebatecnica.service;
+package com.DanielC.pruebatecnica.service;
 
-import com.viperexz.pruebatecnica.dto.ProductoRequestDTO;
-import com.viperexz.pruebatecnica.dto.ProductoResponseDTO;
-import com.viperexz.pruebatecnica.exception.ProductoNotFoundException;
-import com.viperexz.pruebatecnica.exception.SucursalNotFoundException;
-import com.viperexz.pruebatecnica.model.Producto;
-import com.viperexz.pruebatecnica.model.Sucursal;
-import com.viperexz.pruebatecnica.repository.ProductoRepository;
-import com.viperexz.pruebatecnica.repository.SucursalRepository;
+import com.DanielC.pruebatecnica.dto.ProductoRequestDTO;
+import com.DanielC.pruebatecnica.dto.ProductoResponseDTO;
+import com.DanielC.pruebatecnica.exception.ProductoNotFoundException;
+import com.DanielC.pruebatecnica.exception.SucursalNotFoundException;
+import com.DanielC.pruebatecnica.model.Producto;
+import com.DanielC.pruebatecnica.model.Sucursal;
+import com.DanielC.pruebatecnica.repository.ProductoRepository;
+import com.DanielC.pruebatecnica.repository.SucursalRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

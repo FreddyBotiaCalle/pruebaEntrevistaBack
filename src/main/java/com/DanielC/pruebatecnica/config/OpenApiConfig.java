@@ -1,4 +1,4 @@
-package com.viperexz.pruebatecnica.config;
+package com.DanielC.pruebatecnica.config;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Contact;
@@ -18,8 +18,8 @@ import org.springframework.context.annotation.Configuration;
                         "Permite realizar operaciones CRUD completas sobre franquicias y sus sucursales, " +
                         "gestionar productos con control de stock, y obtener reportes de productos con mayor stock por sucursal.",
                 contact = @Contact(
-                        name = "ViperexZ",
-                        email = "contacto@viperexz.com"
+                        name = "DanielC",
+                        email = "contacto@DanielC.com"
                 )
         ),
         servers = {

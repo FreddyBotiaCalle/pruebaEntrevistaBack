@@ -1,4 +1,4 @@
-package com.viperexz.pruebatecnica.exception;
+package com.DanielC.pruebatecnica.exception;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

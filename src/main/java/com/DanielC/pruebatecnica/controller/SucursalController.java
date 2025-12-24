@@ -1,8 +1,8 @@
-package com.viperexz.pruebatecnica.controller;
+package com.DanielC.pruebatecnica.controller;
 
-import com.viperexz.pruebatecnica.dto.SucursalRequestDTO;
-import com.viperexz.pruebatecnica.dto.SucursalResponseDTO;
-import com.viperexz.pruebatecnica.service.SucursalService;
+import com.DanielC.pruebatecnica.dto.SucursalRequestDTO;
+import com.DanielC.pruebatecnica.dto.SucursalResponseDTO;
+import com.DanielC.pruebatecnica.service.SucursalService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.Content;

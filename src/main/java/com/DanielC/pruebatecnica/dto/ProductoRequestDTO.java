@@ -1,4 +1,4 @@
-package com.viperexz.pruebatecnica.dto;
+package com.DanielC.pruebatecnica.dto;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;

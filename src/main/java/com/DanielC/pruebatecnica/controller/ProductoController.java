@@ -1,8 +1,8 @@
-package com.viperexz.pruebatecnica.controller;
+package com.DanielC.pruebatecnica.controller;
 
-import com.viperexz.pruebatecnica.dto.ProductoRequestDTO;
-import com.viperexz.pruebatecnica.dto.ProductoResponseDTO;
-import com.viperexz.pruebatecnica.service.ProductoService;
+import com.DanielC.pruebatecnica.dto.ProductoRequestDTO;
+import com.DanielC.pruebatecnica.dto.ProductoResponseDTO;
+import com.DanielC.pruebatecnica.service.ProductoService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.Content;

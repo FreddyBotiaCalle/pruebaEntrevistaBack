@@ -67,7 +67,7 @@ com.DanielC.pruebatecnica
 8. **Sistema de persistencia de datos**
    - H2 Database (en memoria para desarrollo)
 
-### ⭐ Puntos Extra Implementados
+### Puntos Extra Implementados
 
 - **Endpoint para actualizar nombre de franquicia**
   - `PUT /api/v1/franquicias/{id}`
@@ -137,7 +137,7 @@ com.DanielC.pruebatecnica
      - Username: `sa`
      - Password: *(vacío)*
 
-## 📝 Ejemplos de Uso
+## Ejemplos de Uso
 
 ### 1. Crear una Franquicia
 
@@ -262,7 +262,7 @@ curl -X PUT http://localhost:8080/api/v1/productos/1/nombre \
   }'
 ```
 
-## 🔒 Validaciones Implementadas
+## Validaciones Implementadas
 
 ### Franquicia
 - `nombre`: No puede estar vacío, debe tener entre 3 y 100 caracteres
@@ -276,7 +276,7 @@ curl -X PUT http://localhost:8080/api/v1/productos/1/nombre \
 - `stock`: No puede ser nulo, debe ser mayor o igual a 0
 - `sucursalId`: Debe ser un ID válido de una sucursal existente
 
-## 📊 Datos de Prueba Precargados
+## Datos de Prueba Precargados
 
 La aplicación inicia con datos de prueba que incluyen:
 
@@ -288,17 +288,17 @@ Esto permite probar inmediatamente todas las funcionalidades sin necesidad de cr
 
 ## 🔧 Características Técnicas
 
-✅ **Arquitectura en Capas**: Separación clara de responsabilidades  
-✅ **DTOs**: Objetos de transferencia para desacoplar entidades de la API  
-✅ **Validaciones**: Usando Jakarta Validation (@Valid, @NotNull, etc.)  
-✅ **Manejo Global de Excepciones**: Con @ControllerAdvice  
-✅ **Respuestas HTTP Apropiadas**: Códigos de estado correctos (200, 201, 404, 400)  
-✅ **Documentación Swagger**: Disponible en `/swagger-ui.html`  
-✅ **Logs Detallados**: SLF4J para trazabilidad  
-✅ **Relaciones JPA**: OneToMany y ManyToOne con cascada  
-✅ **Timestamps Automáticos**: @CreationTimestamp y @UpdateTimestamp  
+**Arquitectura en Capas**: Separación clara de responsabilidades  
+**DTOs**: Objetos de transferencia para desacoplar entidades de la API  
+**Validaciones**: Usando Jakarta Validation (@Valid, @NotNull, etc.)  
+**Manejo Global de Excepciones**: Con @ControllerAdvice  
+**Respuestas HTTP Apropiadas**: Códigos de estado correctos (200, 201, 404, 400)  
+**Documentación Swagger**: Disponible en `/swagger-ui.html`  
+**Logs Detallados**: SLF4J para trazabilidad  
+**Relaciones JPA**: OneToMany y ManyToOne con cascada  
+**Timestamps Automáticos**: @CreationTimestamp y @UpdateTimestamp  
 
-## 📖 Documentación Swagger
+## Documentación Swagger
 
 Una vez la aplicación esté corriendo, accede a:
 
@@ -310,7 +310,7 @@ Aquí encontrarás:
 - Esquemas de los DTOs de request y response
 - Códigos de respuesta HTTP con sus descripciones
 
-## 🗄️ Consola H2
+## Consola H2
 
 Para inspeccionar la base de datos en tiempo real:
 
@@ -321,7 +321,7 @@ Para inspeccionar la base de datos en tiempo real:
    - Password: *(dejar vacío)*
 3. Click en "Connect"
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 PruebaTecnica/
@@ -373,7 +373,7 @@ PruebaTecnica/
 └── README.md
 ```
 
-## 🎨 Características Adicionales Implementadas
+##  Características Adicionales Implementadas
 
 1. **Relaciones Bidireccionales**: Las entidades mantienen referencias bidireccionales con JsonManagedReference y JsonBackReference para evitar recursión infinita
 2. **Cascade Operations**: Las operaciones de eliminación se propagan automáticamente
@@ -382,12 +382,12 @@ PruebaTecnica/
 5. **Logging Completo**: Trazas detalladas en todas las operaciones
 6. **Validación de Negocio**: Verificación de existencia de entidades relacionadas antes de operaciones
 
-## 👨‍💻 Autor
+##  Autor
 
 **DanielC**
 - Email: botiacalle@gmail.com
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto fue desarrollado como parte de una prueba técnica backend.
 

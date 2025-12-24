@@ -1,7 +1,7 @@
-package com.viperexz.pruebatecnica.service;
+package com.DanielC.pruebatecnica.service;
 
-import com.viperexz.pruebatecnica.dto.ProductoRequestDTO;
-import com.viperexz.pruebatecnica.dto.ProductoResponseDTO;
+import com.DanielC.pruebatecnica.dto.ProductoRequestDTO;
+import com.DanielC.pruebatecnica.dto.ProductoResponseDTO;
 
 import java.util.List;
 

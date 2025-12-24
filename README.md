@@ -26,7 +26,7 @@ Franquicia
 ### Estructura de Capas
 
 ```
-com.viperexz.pruebatecnica
+com.DanielC.pruebatecnica
 ├── model/           # Entidades JPA (Franquicia, Sucursal, Producto)
 ├── dto/             # Data Transfer Objects
 ├── repository/      # Capa de persistencia (JPA)
@@ -327,7 +327,7 @@ Para inspeccionar la base de datos en tiempo real:
 PruebaTecnica/
 ├── src/
 │   ├── main/
-│   │   ├── java/com/viperexz/pruebatecnica/
+│   │   ├── java/com/DanielC/pruebatecnica/
 │   │   │   ├── PruebaTecnicaApplication.java
 │   │   │   ├── config/
 │   │   │   │   └── OpenApiConfig.java
@@ -384,8 +384,8 @@ PruebaTecnica/
 
 ## 👨‍💻 Autor
 
-**ViperexZ**
-- Email: contacto@viperexz.com
+**DanielC**
+- Email: botiacalle@gmail.com
 
 ## 📄 Licencia
 
